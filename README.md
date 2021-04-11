@@ -127,6 +127,18 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 | !twitch-announcer          | Allows you to Enable, Disable or Check the Twitch Announcer.                   | !ta enable                           |
 | !twitch-announcer-settings | Settings for the Twitch Announcer.                                             | !tasettings bacon-fixation general 1 |
 
+### Botemo Python
+
+The python version of botemo, it's in work in progress.
+
+**Installation**
+You need python 3.5.3+, and in the command line do:
+```shell
+pip install google_trans_new
+pip install discord.py
+```
+### And your all set!
+
 ### Resources
 
 [Get a Tenor API key here](https://tenor.com/developer/keyregistration)
