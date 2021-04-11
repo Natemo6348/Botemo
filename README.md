@@ -46,6 +46,18 @@ Also, no matter what operating system you have, make sure [python 2.7](https://w
 
 If you are not cloning this repo, make sure your dependencies versions are the same as this repo's.
 
+## Botemo Python
+
+The python version of botemo, it's in work in progress.
+
+**Installation**
+You need python 3.5.3+, and in the command line do:
+```shell
+pip install google_trans_new
+pip install discord.py
+```
+### And your all set!
+
 ### Commands
 
 - Music
