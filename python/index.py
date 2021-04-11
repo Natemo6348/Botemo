@@ -1,4 +1,4 @@
-import discord, asyncio, json
+import discord, asyncio, json, os
 from discord.ext import commands
 
 class Botemo(commands.AutoShardedBot):
@@ -19,4 +19,9 @@ async def on_ready():
     print(f"{bot.user} is Ready!")
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name=f"{bot.command_prefix}help"))
 
-bot.run(data['token'])
+
+if __name__ == '__main__':
+    for cog in os.listdir('./cogs'):
+        if cog.endswith('.py'):
+            bot.load_extension(f"cogs.{cog[:-3]}")
+    bot.run(data['token'])
