@@ -46,7 +46,7 @@ Also, no matter what operating system you have, make sure [python 2.7](https://w
 
 If you are not cloning this repo, make sure your dependencies versions are the same as this repo's.
 
-# Botemo Python
+## Botemo Python
 
 The python version of botemo, it's in work in progress.
 
@@ -56,7 +56,7 @@ You need python 3.5.3+, and in the command line do:
 pip install google_trans_new
 pip install discord.py
 ```
-# And your all set!
+### And your all set!
 
 ### Commands
 
@@ -138,18 +138,6 @@ pip install discord.py
 | !welcome-message           | Allows you to toggle the welcome message for new members that join the server. | !welcome-message enable              |
 | !twitch-announcer          | Allows you to Enable, Disable or Check the Twitch Announcer.                   | !ta enable                           |
 | !twitch-announcer-settings | Settings for the Twitch Announcer.                                             | !tasettings bacon-fixation general 1 |
-
-### Botemo Python
-
-The python version of botemo, it's in work in progress.
-
-**Installation**
-You need python 3.5.3+, and in the command line do:
-```shell
-pip install google_trans_new
-pip install discord.py
-```
-### And your all set!
 
 ### Resources
 
